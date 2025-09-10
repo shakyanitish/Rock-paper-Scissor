@@ -1,13 +1,37 @@
-# React + Vite
+# Rock Paper Scissors 🎮
+A simple **Rock Paper Scissors** game built with **ReactJS** using **Vite**. This project demonstrates the use of components, props, state, and event handling in React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+- Play Rock, Paper, Scissors against the computer.  
+- Random computer choice using JavaScript logic.  
+- Keeps track of player and computer scores.  
+- Responsive design with basic styling.  
 
-Currently, two official plugins are available:
+## 📂 Project Structure
+rock-paper-scissor/  
+│-- public/              # Static files (index.html, icons, etc.)  
+│-- src/  
+│   │-- components/  
+│   │   │-- Game.jsx     # Main game logic  
+│   │   │-- Game.css     # Styling for the game  
+│   │-- App.jsx          # Root component  
+│   │-- main.jsx         # Entry point  
+│   │-- index.css        # Global styles  
+│-- package.json  
+│-- vite.config.js  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📸 Screenshot
 
-## Expanding the ESLint configuration
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d7b72c8e-6d05-4593-996b-eb3e26fd4dcd" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/01346a2a-04cd-4c29-928f-887198cfd1f9" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/201903a6-0720-4c9c-9c1c-9159f7c7d9d3" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Rock-paper-Scissor" 
+
+
+
+🛠 Built With
+
+React
+Vite
+JavaScript
+CSS
